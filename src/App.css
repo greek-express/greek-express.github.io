@@ -14,7 +14,8 @@ body {
 
 .border-container {
   background-color: #00467f;
-  height: 100px;
+  height: 10%;
+  max-height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,6 +54,7 @@ body {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  height: 40%;
   max-width: 300px;
 }
 
@@ -123,5 +125,15 @@ body {
 @media only screen and (max-width: 350px) {
   .notice p {
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .notice p {
+    font-size: 14px;
+  }
+
+  .delivery-badge {
+    margin: 2%;
   }
 }
