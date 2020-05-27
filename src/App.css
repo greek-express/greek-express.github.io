@@ -68,10 +68,10 @@
   background-color: #00467f;
   border-radius: 25px;
   border: 3px solid white;
-  width: auto;
+  width: 430px;
   min-height: 100px;
   height: auto;
-  padding: 0 20px;
+  padding: 0 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,7 +85,37 @@
 }
 
 .delivery-badge {
+  grid-column-start: span 3;
   background-color: white;
   margin: 10%;
   border-radius: 10px;
+  max-width: 250px;
+}
+
+.delivery-badge a {
+  width: 100%;
+}
+
+.delivery-badge a img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 450px) {
+  .notice {
+    width: 85vw;
+  }
+
+  .notice p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .notice p {
+    font-size: 16px;
+  }
+
+  .logo {
+    max-width: 200px;
+  }
 }

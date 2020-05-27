@@ -23,7 +23,6 @@ function App() {
                         or online using our partner :
                     </p>
                 </div>
-                <div className="delivery-badge"></div>
                 <div className="delivery-badge">
                     <a href="https://www.beyondmenu.com/34359/bellevue/greek-express-bellevue-98006.aspx?utm_source=satellite&utm_medium=top_banner&pk_vid=8ddc5f92185db73e1590601839b21925">
                         <img
@@ -32,7 +31,6 @@ function App() {
                         />
                     </a>
                 </div>
-                <div className="delivery-badge"></div>
             </div>
 
             <div className="border-container bottom">
