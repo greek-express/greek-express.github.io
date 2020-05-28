@@ -11,7 +11,7 @@ function App() {
 
             <div className="header-bg"></div>
 
-            <img src={logo} alt="logo" className="logo" />
+            <img src={logo} alt="logo" className="greek express logo" />
 
             <div className="container">
                 <div className="notice">
@@ -27,7 +27,7 @@ function App() {
                     <a href="https://www.beyondmenu.com/34359/bellevue/greek-express-bellevue-98006.aspx?utm_source=satellite&utm_medium=top_banner&pk_vid=8ddc5f92185db73e1590601839b21925">
                         <img
                             src="https://static.beyondmenu.com/beyondmenu/images/home/logo.png"
-                            alt="beyond menu"
+                            alt="beyond menu link"
                         />
                     </a>
                 </div>
