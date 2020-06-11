@@ -29,7 +29,7 @@ function App() {
                             DOWNLOAD MENU
                         </a>
                         <br />
-                        Order by phone at (000) 000-000
+                        Order by phone at (425) 747-7434
                         <br />
                         or online using one of our partners:
                     </p>
