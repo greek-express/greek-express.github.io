@@ -51,8 +51,8 @@ function App() {
                         target="blank"
                     >
                         <img
-                            src="https://public.boxcloud.com/api/2.0/internal_files/642159077010/versions/680904049410/representations/png_paged_2048x2048/content/1.png?access_token=1!sfKnBdAgPmRCmMEInXoeBfmYLcx5jxtqx4AGEX7X1gXXnyDDOtnquPUxlyj65zcx58e6ALPceiKSNZ0-O4mpOXaITYJn04dxYt0PldzmPKf_mlGSqcLtQxhwMI_GxCoAHTop7C4psjSDIevSrDLRw_0-c7XZJ6947uO3jQMULc-QcwWGlctMiIuWJTv8--kUt_MZAwKc_jfSPTzbgGKgSP3RSphvnkhCwABX_S6N_waJ3Xpu_miS-CExo_KSLnhIN9PXzIw3gAPRxFSOSGOV9shITvZhC3FTl-9dXzStBAF9-nME0xO2xSionZXkAWqGJjF2i9NExwDlgVEEUBYa1vLXLFQueTCSWXm88IKVWRSTOrKPS0twWAOWAdEp1H_MatBVOkVGWBhn-fBp4Buyo2BetXRhMTTsdgxNX0x_UI554KFPwMr8if0LCsttiPDVpLfiEwV_tUAcdfJ0OHYiFIRtu_GXpRD8xBPaTUZ2HTGsAUh8Q4Gkx7VHxe9W2_5i_CgOKArMqsOSXI5Lgqj8GTH-L_7VwPon--iV9t8APvVy9ehIDp3LM3IT6AFFE9dox3aSU2QSPdgjlymNSL9ueAAAKdrleYMt5c8TyEs6Io-0Xf7XQ2xHnZ0EGofaL5zzu-A_irLb&shared_link=https%3A%2F%2Fuber.app.box.com%2Fs%2F9ro2t75twe2mut85ufpmznub6nb1efuy&box_client_name=box-content-preview&box_client_version=2.43.0"
-                            alt="DoorDash link"
+                            src="https://public.boxcloud.com/api/2.0/internal_files/642159077010/versions/680904049410/representations/png_paged_2048x2048/content/1.png?access_token=1!GcTtE9eMiSPgjZKb8rb-_ClGwVA4FlMBX887CITJvQlzjIuNeME20EOTnOMI0GOGi5etJlp8awYt6bgaej-ONWjwXVD63oyRHw6PC7tY3XfCVn2EMMQMFZvB4xvIB1zH6_F2JTgjVtl1pmzLUM8jexncEdejZVn4Ry4tGkjEy4-NgOLZO8f9i77lbASCQIMEN5LTX7DB-NuKiiJ64zNyqamMl003L-BuW2jrRMrsCOXq37CUu0cTFSGKW5Ln1jBdzTmvIrw5Jm2k2ij5uwE663G5ag-lylOq73wMX_xfpwFakwbniK20CBCHnHLhxVTv3QqwoRqLFj2BqnzmzwMjgoWMtxg73MPwYZllaetEhpzYEew_vwLwN1rr924lr5PYavKlGtHmNUAW2QXNYoqjwOHnzv3WERM1QLqUBfKr3eVBoxo35pZDebcv0CuGH0LOBqGQT58G9NDr1-qgvyBbzFaAMA74JYuGHwaGokLpOKWwpDqiKigfwMlkQ0uw2my8Q7OxdRX_N1Rb-NDAPrhJ8N28vM1xdO-XGTr3gMWA0W3aYl-Gu4qewLKKRHaFIPeJadF2uMN_fvDt_UHPA3xRh7UvCwJrh5E83S0yaZnJ3sexzCD1N66b2Ob4CLHNNwqSiw6pgE8m&shared_link=https%3A%2F%2Fuber.app.box.com%2Fs%2F9ro2t75twe2mut85ufpmznub6nb1efuy&box_client_name=box-content-preview&box_client_version=2.43.0"
+                            alt="Uber Eats link"
                         />
                     </a>
                 </div>
@@ -63,7 +63,7 @@ function App() {
                     >
                         <img
                             src="https://learn.grubhub.com/wp-content/uploads/2020/04/WebsiteBadges-2VersionsWebsiteBade-GH-Rectangle-1-300x150.png"
-                            alt="DoorDash link"
+                            alt="GrubHub link"
                         />
                     </a>
                 </div>
