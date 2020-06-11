@@ -157,6 +157,12 @@ body {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .notice p {
+        font-size: 14px;
+    }
+}
+
 @media only screen and (max-height: 500px) {
     .notice {
         min-height: 50px;
