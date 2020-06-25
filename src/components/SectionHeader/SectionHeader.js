@@ -1,14 +1,11 @@
 import React from 'react';
 import logo from '../../logo.png';
+import NavBar from '../NavBar';
 
 function SectionHeader() {
     return (
         <div className="section-header">
-            <div className="border-container top">
-                <div className="greek-border left"></div>
-                <div className="spacer"></div>
-                <div className="greek-border right"></div>
-            </div>
+            <NavBar />
 
             <div className="header-bg"></div>
 
