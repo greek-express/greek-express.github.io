@@ -63,6 +63,15 @@
     min-width: 1000px;
     background-color: #00467f;
     z-index: 10;
+    display: grid;
+    grid-template-columns: auto auto 25% auto auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 36px;
+    color: #f8db0c;
 }
 
 .left {
