@@ -2,8 +2,11 @@ import React from 'react';
 
 const NavLink = (props) => {
     return (
-        <div>
-            <h3 className="nav-link">{props.children}</h3>
+        <div className="nav-link-container">
+            <h3 className="nav-link">
+                {props.children}
+                <div className="nav-link-border"></div>
+            </h3>
         </div>
     );
 };
