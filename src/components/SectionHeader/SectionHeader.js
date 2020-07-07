@@ -6,9 +6,6 @@ function SectionHeader() {
         <div className="section-header">
             <NavBar />
             <div className="header-bg"></div>
-            <div className="border-container bottom">
-                <div className="greek-border"></div>
-            </div>
         </div>
     );
 }
