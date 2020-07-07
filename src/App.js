@@ -4,6 +4,7 @@ import ReactGA from 'react-ga';
 import SectionHeader from './components/SectionHeader';
 import SectionMenu from './components/SectionMenu';
 import SectionGallery from './components/SectionGallery';
+import SectionAbout from './components/SectionAbout';
 
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
             <SectionHeader />
             <SectionMenu />
             <SectionGallery />
+            <SectionAbout />
         </Fragment>
     );
 }

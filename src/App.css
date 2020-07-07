@@ -157,6 +157,7 @@ a:hover {
     width: 100vw;
     text-align: center;
     height: 100%;
+    position: relative;
 }
 
 .gallery-border {
@@ -171,11 +172,11 @@ a:hover {
     border-radius: 50%;
     margin: auto;
     position: relative;
+    z-index: 3;
 }
 .gallery-container {
     width: 640px;
     height: 640px;
-    background-color: orangered;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -183,6 +184,50 @@ a:hover {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.gallery-bg-fill {
+    content: ' ';
+    background-color: #dcdcdc;
+    height: 180px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+/* ABOUT SECTION ****************************************/
+
+.section-about {
+    background-color: #dcdcdc;
+    width: 100vw;
+    text-align: center;
+    height: 100%;
+}
+.about-container {
+    margin: auto;
+    display: flex;
+    width: 1060px;
+    justify-content: space-around;
+}
+
+.map {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.map-container {
+    width: 525px;
+}
+
+.hours-container {
+    width: 525px;
 }
 
 /* UTILITIES ****************************************/

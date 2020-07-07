@@ -11,6 +11,7 @@ const SectionGallery = () => {
                     <Gallery />
                 </div>
             </div>
+            <div className="gallery-bg-fill"></div>
         </section>
     );
 };

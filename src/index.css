@@ -13,6 +13,11 @@ h4 {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h5 {
+    font-size: 30px;
+    color: #00467f;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
