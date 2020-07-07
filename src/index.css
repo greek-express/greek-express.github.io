@@ -18,6 +18,11 @@ h5 {
     color: #00467f;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
