@@ -5,10 +5,12 @@ const Heading = (props) => {
     return (
         <div className="heading u-margin-top-medium u-margin-bottom-medium">
             <Border set="left" />
-            <h2>
-                {props.children}
-                <div className="heading-border"></div>
-            </h2>
+            <div className="heading-container">
+                <h2>
+                    {props.children}
+                    <div className="heading-border"></div>
+                </h2>
+            </div>
             <Border set="right" />
         </div>
     );

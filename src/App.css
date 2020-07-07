@@ -150,6 +150,41 @@ a:hover {
     max-height: 100%;
 }
 
+/* GALLERY SECTION ****************************************/
+
+.section-gallery {
+    background-color: #f8db0c;
+    width: 100vw;
+    text-align: center;
+    height: 100%;
+}
+
+.gallery-border {
+    width: 1000px;
+    height: 1000px;
+    background-image: url(img/svg/Ornamental-Border-Circle-Large.svg);
+    background-size: 100%;
+    background-position: center;
+    background-color: #dcdcdc;
+    border: 10px solid transparent;
+    border-style: hidden;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+}
+.gallery-container {
+    width: 640px;
+    height: 640px;
+    background-color: orangered;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 /* UTILITIES ****************************************/
 
 .clearfix:before,
@@ -202,12 +237,16 @@ a:hover {
     width: 100vw;
 }
 
-.heading h2 {
+h2 {
     font-size: 60px;
     color: #00467f;
-    padding: 20px;
+    padding: 15px 20px;
     position: relative;
-    margin: 0 100px;
+    margin: auto;
+}
+
+.heading-container {
+    min-width: 425px;
 }
 
 .heading-border {
@@ -234,12 +273,10 @@ a:hover {
 
 .left {
     background-position: right center;
-    margin-right: 0.5rem;
 }
 
 .right {
     background-position: left center;
-    margin-left: 0.5rem;
 }
 
 /* MEDIA QUERIES ****************************************/
