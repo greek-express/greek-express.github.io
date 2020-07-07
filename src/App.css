@@ -103,6 +103,15 @@ nav {
     z-index: 5;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #f8db0c;
+}
+
 /* MENU SECTION ****************************************/
 
 .section-menu {
@@ -110,6 +119,35 @@ nav {
     width: 100vw;
     text-align: center;
     height: 100%;
+}
+
+/* DELIVERY SECTION ****************************************/
+
+.section-delivery {
+    background-color: #dcdcdc;
+    width: 100vw;
+    text-align: center;
+    text-justify: center;
+    height: 100%;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 1060px;
+}
+
+.badge {
+    height: 80px;
+    margin: 20px;
+}
+
+.badge a img {
+    width: auto;
+    max-width: 300px;
+    max-height: 100%;
 }
 
 /* UTILITIES ****************************************/
@@ -122,6 +160,13 @@ nav {
 
 .clearfix:after {
     clear: both;
+}
+
+.text-content {
+    font-size: 26px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
 }
 
 .u-margin-top-large {
