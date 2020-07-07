@@ -197,6 +197,15 @@ a:hover {
     clear: both;
 }
 
+.floral-divider {
+    content: ' ';
+    background-image: url(img/svg/Ornamental-Divider-Small.svg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
 .text-content {
     font-size: 26px;
     text-align: center;

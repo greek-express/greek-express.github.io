@@ -3,7 +3,7 @@ import Border from '../Border';
 
 const Heading = (props) => {
     return (
-        <div className="heading u-margin-top-medium u-margin-bottom-medium">
+        <div className="heading u-margin-top-medium u-margin-bottom-small">
             <Border set="left" />
             <div className="heading-container">
                 <h2>
