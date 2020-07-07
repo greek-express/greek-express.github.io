@@ -5,6 +5,7 @@ import SectionHeader from './components/SectionHeader';
 import SectionMenu from './components/SectionMenu';
 import SectionGallery from './components/SectionGallery';
 import SectionAbout from './components/SectionAbout';
+import SectionFooter from './components/SectionFooter';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
             <SectionMenu />
             <SectionGallery />
             <SectionAbout />
+            <SectionFooter />
         </Fragment>
     );
 }

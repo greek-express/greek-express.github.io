@@ -220,6 +220,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin: auto;
+    border-radius: 20px;
 }
 
 .map-container {
