@@ -5,7 +5,7 @@ const NavLink = (props) => {
         <div className="nav-link-container">
             <h3 className="nav-link">
                 {props.children}
-                <div className="nav-link-border"></div>
+                <div className="nav-link-border flip-in-hor-bottom"></div>
             </h3>
         </div>
     );
