@@ -1,6 +1,14 @@
 @font-face {
     font-family: 'Adonais';
     src: url(./fonts/Adonais.ttf) format('ttf');
+    src: url(./fonts/Adonais.eot);
+    src: url(./fonts/Adonais.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/Adonais.woff2) format('woff2'),
+        url(./fonts/Adonais.woff) format('woff'),
+        url(./fonts/Adonais.svg#Adonais) format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
 }
 
 h1,
