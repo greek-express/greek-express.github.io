@@ -36,12 +36,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     z-index: 1;
     width: 100vw;
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.topbar-sticky {
+    background-color: #00467f;
+    height: 5%;
+    max-height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: -5%;
+    transition: all 0.4s linear; /* Adds a transition effect when the padding is decreased */
+    z-index: 2000;
 }
 
 .logo {
@@ -60,6 +75,7 @@ nav {
 }
 
 .navbar {
+    margin: auto;
     height: 66%;
     background-color: #00467f;
     width: 1060px;
@@ -68,14 +84,19 @@ nav {
     display: grid;
     grid-template-columns: auto auto 20% auto auto;
     justify-items: center;
-    align-items: auto;
 }
 
 .navbar-sticky {
+    margin: auto;
+    left: 0;
+    top: 0;
     background-color: #00467f;
-    width: 100vw;
-    height: 60;
+    padding: 0 10px;
+    display: grid;
+    width: 1060px;
+    height: auto;
     grid-template-columns: auto auto auto auto;
+    justify-items: center;
 }
 
 .nav-link-container {

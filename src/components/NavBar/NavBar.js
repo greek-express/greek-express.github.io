@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import NavLink from './NavLink';
 import Logo from '../Logo';
@@ -11,20 +11,32 @@ import Border from '../Border';
 // On scroll the Logo will also disappear using 'nth-child(3)'
 const NavBar = () => {
     return (
-        <div className="topbar">
-            <Border set="left" />
-            <nav>
-                <div className="navbar">
-                    <NavLink target="menu">Menu</NavLink>
-                    <NavLink target="delivery">Delivery</NavLink>
-                    <Logo />
-                    <NavLink target="gallery">Gallery</NavLink>
-                    <NavLink target="about">About</NavLink>
-                </div>
-                <div className="hamburger inactive"></div>
-            </nav>
-            <Border set="right" />
-        </div>
+        <Fragment>
+            <div className="topbar">
+                <Border set="left" />
+                <nav>
+                    <div className="navbar">
+                        <NavLink target="menu">Menu</NavLink>
+                        <NavLink target="delivery">Delivery</NavLink>
+                        <Logo />
+                        <NavLink target="gallery">Gallery</NavLink>
+                        <NavLink target="about">About</NavLink>
+                    </div>
+                    <div className="hamburger inactive"></div>
+                </nav>
+                <Border set="right" />
+            </div>
+            <div className="topbar-sticky">
+                <nav>
+                    <div className="navbar-sticky">
+                        <NavLink target="menu">Menu</NavLink>
+                        <NavLink target="delivery">Delivery</NavLink>
+                        <NavLink target="gallery">Gallery</NavLink>
+                        <NavLink target="about">About</NavLink>
+                    </div>
+                </nav>
+            </div>
+        </Fragment>
     );
 };
 

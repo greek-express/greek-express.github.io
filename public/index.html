@@ -76,4 +76,21 @@
         <noscript>You need to enable JavaScript to view this website.</noscript>
         <div id="root"></div>
     </body>
+    <script>
+        // When the user scrolls down 200px from the top of the document, show the sticky navbar
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 200 ||
+                document.documentElement.scrollTop > 200
+            ) {
+                document.querySelector('.topbar-sticky').style.top = '0';
+            } else {
+                document.querySelector('.topbar-sticky').style.top = '-5%';
+            }
+        }
+    </script>
 </html>
