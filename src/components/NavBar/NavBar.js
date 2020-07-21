@@ -36,20 +36,6 @@ const NavBar = () => {
                     </div>
                 </nav>
             </div>
-            <div className="mobile-menu">
-                <div className="mobile-nav-link">
-                    <h4>Menu</h4>
-                </div>
-                <div className="mobile-nav-link">
-                    <h4>Delivery</h4>
-                </div>
-                <div className="mobile-nav-link">
-                    <h4>Gallery</h4>
-                </div>
-                <div className="mobile-nav-link">
-                    <h4>About</h4>
-                </div>
-            </div>
         </Fragment>
     );
 };

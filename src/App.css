@@ -148,22 +148,6 @@ a:hover {
     color: #f8db0c;
 }
 
-.mobile-menu {
-    display: none;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-evenly;
-    height: 50px;
-    width: 100vw;
-    background-color: #00467f;
-    align-items: center;
-}
-
-.mobile-nav-link {
-    font-size: 1.5rem;
-    color: #f8db0c;
-    padding: 0 5px;
-}
-
 /* MENU SECTION ****************************************/
 
 .section-menu {
@@ -585,25 +569,13 @@ h2 {
         display: none;
     }
 
-    .topbar,
-    .topbar-sticky {
-        display: none;
+    .nav-link {
+        font-size: 1.5rem;
     }
 
-    .mobile-menu {
-        display: grid;
-    }
-
-    .mobile-logo {
-        display: block;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    /* Need to make title text, footer text, and map smaller */
-
-    .floral-divider {
-        display: none;
+    .nav-link-container {
+        margin: 0 -50px;
+        width: 25vw;
     }
 
     .section-header {
@@ -614,7 +586,44 @@ h2 {
         top: 200px;
     }
 
+    .nav-link:hover .nav-link-border,
+    .nav-link:active .nav-link-border {
+        display: none;
+    }
+
+    .email {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    /* Need to make title text, footer text, and map smaller */
+
+    .floral-divider {
+        display: none;
+    }
+
     .map {
-        width: 100%;
+        width: 90vw;
+    }
+
+    .email {
+        font-size: 1.2rem;
+    }
+
+    .topbar-sticky {
+        display: none;
+    }
+
+    .topbar {
+        height: 0;
+    }
+
+    .navbar {
+        height: 0;
+    }
+
+    .nav-link {
+        display: none;
     }
 }
