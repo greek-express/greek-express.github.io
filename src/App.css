@@ -27,6 +27,18 @@
     z-index: -1;
 }
 
+.mobile-logo {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40vh;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 /* NAVBAR ****************************************/
 
 .topbar {
@@ -142,6 +154,16 @@ a:hover {
     width: 100vw;
     text-align: center;
     height: 100%;
+}
+
+.menu-frame {
+    width: 980px;
+    margin: auto;
+    height: auto;
+}
+
+.menu-image {
+    width: 100%;
 }
 
 /* DELIVERY SECTION ****************************************/
@@ -375,6 +397,12 @@ h2 {
     background-position: left center;
 }
 
+.button {
+    border-radius: 20px;
+    background-color: #00467f;
+    color: #ffffff;
+}
+
 /* ANIMATION ****************************************/
 
 .nav-link:hover .flip-in-hor-bottom {
@@ -446,7 +474,7 @@ h2 {
 
     .topbar {
         background-color: #00467f;
-        height: 10%;
+        height: 7%; /* */
         max-height: 100px;
         display: flex;
         align-items: center;
@@ -477,8 +505,12 @@ h2 {
     }
     */
 
+    .section-header {
+        height: 500px;
+    }
+
     .logo {
-        top: 40vh;
+        top: 425px;
         transform: translate(-50%, -50%);
     }
 
@@ -509,10 +541,6 @@ h2 {
 @media only screen and (max-width: 990px) {
     /* Need to make the menu container smaller */
 
-    #my-pdf {
-        width: 90vw !important;
-    }
-
     .gallery-border {
         left: 50%;
         margin-left: -500px;
@@ -523,12 +551,49 @@ h2 {
         margin-top: 850px;
         position: relative;
     }
+
+    .menu-frame {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 760px) {
     /* Need to replace navbar with hamburger */
+
+    .menu-button {
+        display: block;
+    }
+
+    .menu-link {
+        display: none;
+    }
+
+    .topbar,
+    .topbar-sticky {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 400px) {
     /* Need to make title text, footer text, and map smaller */
+
+    .floral-divider {
+        display: none;
+    }
+
+    .section-header {
+        height: 300px;
+    }
+
+    .logo {
+        top: 200px;
+    }
+
+    .map {
+        width: 100%;
+    }
 }

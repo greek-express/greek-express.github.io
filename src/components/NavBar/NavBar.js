@@ -36,6 +36,7 @@ const NavBar = () => {
                     </div>
                 </nav>
             </div>
+            <div className="hamburger-menu"></div>
         </Fragment>
     );
 };
