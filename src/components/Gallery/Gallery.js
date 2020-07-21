@@ -1,16 +1,25 @@
-import React from 'react';
-import SimpleImageSlider from 'react-simple-image-slider';
+import React, { Fragment } from 'react';
+// import SimpleImageSlider from 'react-simple-image-slider';
+import Swiper from 'react-id-swiper';
 
 const images = [
-    { url: 'img/gallery/IMG_0475.jpg' },
-    { url: 'img/gallery/IMG_0475.jpg' },
-    { url: 'img/gallery/IMG_0475.jpg' },
-    { url: 'img/gallery/IMG_0475.jpg' },
+    'img/gallery/IMG_0475.jpg',
+    'img/gallery/IMG_0475.jpg',
+    'img/gallery/IMG_0475.jpg',
+    'img/gallery/IMG_0475.jpg',
 ];
 
 const Gallery = () => {
+    const params = {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    };
+
     return (
-        <div>
+        <Fragment>
+            {/*
             <SimpleImageSlider
                 width={640}
                 height={640}
@@ -18,7 +27,22 @@ const Gallery = () => {
                 navStyle={2}
                 slideDuration={0.5}
             />
-        </div>
+            */}
+
+            <Swiper {...params}>
+                {images.map((e, i) => {
+                    return (
+                        <div key={i}>
+                            <img
+                                src={e}
+                                alt="Greek Express food"
+                                style={{ width: '100%' }}
+                            />
+                        </div>
+                    );
+                })}
+            </Swiper>
+        </Fragment>
     );
 };
 

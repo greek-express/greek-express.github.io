@@ -11,8 +11,10 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.13.1",
     "react-ga": "^3.0.0",
+    "react-id-swiper": "^4.0.0",
     "react-scripts": "3.4.1",
-    "react-simple-image-slider": "^1.0.4"
+    "react-simple-image-slider": "^1.0.4",
+    "swiper": "^6.0.4"
   },
   "scripts": {
     "start": "react-scripts start",

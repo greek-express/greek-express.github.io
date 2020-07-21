@@ -14,7 +14,7 @@ const SectionMenu = () => {
                     className="menu-button"
                 >
                     <div className="button text-content u-margin-bottom-small">
-                        Tap to view pdf
+                        View pdf
                     </div>
                 </a>
                 <div className="menu-frame">
