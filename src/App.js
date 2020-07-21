@@ -8,7 +8,7 @@ import SectionAbout from './components/SectionAbout';
 import SectionFooter from './components/SectionFooter';
 
 import './App.css';
-import 'swiper/swiper-bundle.css';
+import 'swiper/css/swiper.css';
 
 ReactGA.initialize('UA-169178150-1');
 ReactGA.pageview(window.location.pathname + window.location.search);

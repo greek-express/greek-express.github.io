@@ -59,7 +59,7 @@
     background-color: #00467f;
     height: 5%;
     max-height: 100px;
-    min-height: 51px;
+    min-height: 55px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -68,7 +68,7 @@
     position: fixed;
     left: 0;
     top: -10%;
-    transition: all 0.4s linear; /* Adds a transition effect when the padding is decreased */
+    transition: height 0.4s linear;
     z-index: 2000;
 }
 
