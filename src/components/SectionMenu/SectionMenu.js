@@ -36,17 +36,6 @@ const SectionMenu = () => {
                         />
                     </a>
                 </div>
-                <div className="menu-link text-content">
-                    Click{' '}
-                    <a
-                        href="./pdf/menu.pdf"
-                        target="blank"
-                        style={{ textDecoration: 'underline' }}
-                    >
-                        here
-                    </a>{' '}
-                    to download
-                </div>
             </section>
             <section className="section-delivery clearfix" id="delivery">
                 <div className="floral-divider u-margin-top-medium"></div>
