@@ -231,7 +231,8 @@ a:hover {
 .about-container {
     margin: auto;
     display: flex;
-    width: 1060px;
+    flex-wrap: wrap;
+    max-width: 1060px;
     justify-content: space-around;
 }
 
@@ -429,4 +430,105 @@ h2 {
         min-width: 100vw;
         max-width: 100vw;
     }
+
+    .nav-link-container {
+        margin: -12px;
+    }
+
+    .footer-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer-container .text-content {
+        max-width: 100%;
+    }
+
+    .topbar {
+        background-color: #00467f;
+        height: 10%;
+        max-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    /*
+    .topbar-sticky {
+        background-color: #00467f;
+        height: 5%;
+        max-height: 100px;
+        min-height: 51px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        width: 100vw;
+        position: fixed;
+        left: 0;
+        top: -10%;
+        transition: all 0.4s linear; */ /* Adds a transition effect when the padding is decreased */ /*
+        z-index: 2000;
+    }
+    */
+
+    .logo {
+        top: 40vh;
+        transform: translate(-50%, -50%);
+    }
+
+    nav {
+        width: 100vw;
+    }
+
+    .navbar {
+        width: 100vw;
+        padding: 0;
+        grid-template-columns: auto auto 0 auto auto;
+    }
+
+    .navbar-sticky {
+        padding: 0;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    /* Need to make the margin between "Hours" title and text content smaller */
+
+    .hours-container .text-content {
+        margin-top: -1rem;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    /* Need to make the menu container smaller */
+
+    #my-pdf {
+        width: 90vw !important;
+    }
+
+    .gallery-border {
+        left: 50%;
+        margin-left: -500px;
+        position: absolute;
+    }
+
+    .gallery-bg-fill {
+        margin-top: 850px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    /* Need to replace navbar with hamburger */
+}
+
+@media only screen and (max-width: 400px) {
+    /* Need to make title text, footer text, and map smaller */
 }
