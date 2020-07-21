@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { PDFReader } from 'reactjs-pdf-reader';
 import Heading from '../Heading';
 import Badge from '../Badge';
 
@@ -8,17 +7,34 @@ const SectionMenu = () => {
         <Fragment>
             <section className="section-menu clearfix" id="menu">
                 <Heading>Menu</Heading>
-                <PDFReader url="./pdf/menu.pdf" showAllPage={true} />
-                <div className="text-content">
-                    Click{' '}
+                <a
+                    href="./pdf/menu.pdf"
+                    target="blank"
+                    style={{ textDecoration: 'underline' }}
+                    className="menu-button"
+                >
+                    <div className="button text-content u-margin-bottom-small">
+                        View pdf
+                    </div>
+                </a>
+                <div className="menu-frame">
                     <a
                         href="./pdf/menu.pdf"
                         target="blank"
                         style={{ textDecoration: 'underline' }}
+                        className="menu-button"
                     >
-                        here
-                    </a>{' '}
-                    to download
+                        <img
+                            src="./img/menu-1.jpg"
+                            alt="Menu page 1"
+                            className="menu-image"
+                        />
+                        <img
+                            src="./img/menu-2.jpg"
+                            alt="Menu page 2"
+                            className="menu-image"
+                        />
+                    </a>
                 </div>
             </section>
             <section className="section-delivery clearfix" id="delivery">
