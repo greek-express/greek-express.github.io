@@ -125,7 +125,8 @@ nav {
     z-index: 10;
 }
 
-.nav-link:hover .nav-link-border {
+.nav-link:hover .nav-link-border,
+.nav-link:active .nav-link-border {
     position: absolute;
     top: 5%;
     left: -5%;
@@ -145,6 +146,22 @@ a {
 
 a:hover {
     color: #f8db0c;
+}
+
+.mobile-menu {
+    display: none;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100vw;
+    background-color: #00467f;
+    align-items: center;
+}
+
+.mobile-nav-link {
+    font-size: 1.5rem;
+    color: #f8db0c;
+    padding: 0 5px;
 }
 
 /* MENU SECTION ****************************************/
@@ -571,6 +588,10 @@ h2 {
     .topbar,
     .topbar-sticky {
         display: none;
+    }
+
+    .mobile-menu {
+        display: grid;
     }
 
     .mobile-logo {
