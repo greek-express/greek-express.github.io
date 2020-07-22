@@ -3,10 +3,11 @@ import React, { Fragment } from 'react';
 import Swiper from 'react-id-swiper';
 
 const images = [
-    'img/gallery/IMG_0475.jpg',
-    'img/gallery/IMG_0475.jpg',
-    'img/gallery/IMG_0475.jpg',
-    'img/gallery/IMG_0475.jpg',
+    'img/gallery/IMG_0567.jpg',
+    'img/gallery/IMG_1503.jpg',
+    'img/gallery/IMG_1144.jpg',
+    'img/gallery/IMG_0728.jpg',
+    'img/gallery/IMG_1478.jpg',
 ];
 
 const Gallery = () => {
