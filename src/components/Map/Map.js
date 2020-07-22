@@ -8,7 +8,7 @@ const Map = () => {
                 target="blank"
             >
                 <img
-                    src="/img/map.jpg"
+                    src="/img/Map.jpg"
                     alt="4058 Factoria Square Mall SE h2, Bellevue, WA 98006"
                 />
             </a>
