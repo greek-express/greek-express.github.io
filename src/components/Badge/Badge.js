@@ -5,7 +5,7 @@ const renderBadge = (type) => {
         case 'doordash':
             return (
                 <a
-                    href="https:// www.doordash.com/store/greek-express-bellevue-651424/"
+                    href="https://www.doordash.com/store/greek-express-bellevue-651424/"
                     target="blank"
                 >
                     <img
@@ -17,7 +17,7 @@ const renderBadge = (type) => {
         case 'grubhub':
             return (
                 <a
-                    href="https:// www.doordash.com/store/greek-express-bellevue-651424/"
+                    href="https://www.yelp.com/biz/greek-express-bellevue"
                     target="blank"
                 >
                     <img src="/img/Website-Badge-GH.png" alt="GrubHub" />
