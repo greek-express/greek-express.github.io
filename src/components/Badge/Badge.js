@@ -17,7 +17,7 @@ const renderBadge = (type) => {
         case 'grubhub':
             return (
                 <a
-                    href="https://www.yelp.com/biz/greek-express-bellevue"
+                    href="https://www.grubhub.com/restaurant/greek-express-4058-factoria-square-mall-se-ste-h2-bellevue/1008618"
                     target="blank"
                 >
                     <img src="/img/Website-Badge-GH.png" alt="GrubHub" />
@@ -26,7 +26,7 @@ const renderBadge = (type) => {
         case 'ubereats':
             return (
                 <a
-                    href="https://www.ubereats.com/seattle/food-delivery/greek-express/YZmxK7xvQJKNXAJkBybC6g"
+                    href="https://order.ubereats.com/seattle/food-delivery/greek-express/YZmxK7xvQJKNXAJkBybC6g"
                     target="blank"
                 >
                     <img src="/img/Website-Badge-UberEats.png" alt="UberEats" />
