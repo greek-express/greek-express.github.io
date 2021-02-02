@@ -24,7 +24,10 @@ const SectionAbout = () => {
             </div>
             <div className="about-container">
                 <div className="badge u-margin-top-small">
-                    <a href="https://www.tripadvisor.com/Restaurant_Review-g58349-d5095561-Reviews-Greek_Express-Bellevue_Washington.html">
+                    <a
+                        href="https://www.tripadvisor.com/Restaurant_Review-g58349-d5095561-Reviews-Greek_Express-Bellevue_Washington.html"
+                        target="blank"
+                    >
                         <img
                             src="/img/Website-Badge-Tripadvisor.png"
                             alt="Tripadvisor"
@@ -32,7 +35,10 @@ const SectionAbout = () => {
                     </a>
                 </div>
                 <div className="badge">
-                    <a href="https://www.yelp.com/biz/greek-express-bellevue">
+                    <a
+                        href="https://www.yelp.com/biz/greek-express-bellevue"
+                        target="blank"
+                    >
                         <img src="/img/Website-Badge-Yelp.png" alt="Yelp" />
                     </a>
                 </div>
