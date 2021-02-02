@@ -41,6 +41,15 @@ const renderBadge = (type) => {
                     <img src="/img/Website-Badge-Caviar.png" alt="Caviar" />
                 </a>
             );
+        case 'clover':
+            return (
+                <a
+                    href="https://www.clover.com/online-ordering/greek-express-bellevue"
+                    target="blank"
+                >
+                    <img src="/img/Website-Badge-Clover.png" alt="Clover" />
+                </a>
+            );
         default:
             return ' ';
     }

@@ -47,6 +47,7 @@ const SectionMenu = () => {
                     <Badge type="grubhub" />
                     <Badge type="ubereats" />
                     <Badge type="caviar" />
+                    <Badge type="clover" />
                 </div>
             </section>
         </Fragment>
