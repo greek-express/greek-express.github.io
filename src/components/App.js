@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 import ReactGA from 'react-ga';
 
-import SectionHeader from './components/SectionHeader';
-import SectionMenu from './components/SectionMenu';
-import SectionGallery from './components/SectionGallery';
-import SectionAbout from './components/SectionAbout';
-import SectionFooter from './components/SectionFooter';
+import SectionHeader from './SectionHeader';
+import SectionMenu from './SectionMenu';
+import SectionGallery from './SectionGallery';
+import SectionAbout from './SectionAbout';
+import SectionFooter from './SectionFooter';
 
 import './App.css';
 import 'swiper/css/swiper.css';
