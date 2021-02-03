@@ -1,17 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Fragment } from 'react';
+
+import SectionHeader from '../components/SectionHeader';
+import SectionMenu from '../components/SectionMenu';
+import SectionGallery from '../components/SectionGallery';
+import SectionAbout from '../components/SectionAbout';
+import SectionFooter from '../components/SectionFooter';
+
+import './App.css';
 import './index.css';
-import App from '../components/App';
-import * as serviceWorker from '../serviceWorker';
+import 'swiper/css/swiper.css';
 
-ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
-);
+function App() {
+    return (
+        <Fragment>
+            <SectionHeader />
+            <SectionMenu />
+            <SectionGallery />
+            <SectionAbout />
+            <SectionFooter />
+        </Fragment>
+    );
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+export default App;
