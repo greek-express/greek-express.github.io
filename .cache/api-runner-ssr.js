@@ -1,6 +1,9 @@
 var plugins = [{
       plugin: require('C:/Users/carltonl/Documents/GitHub/greek-express.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
+    },{
+      plugin: require('C:/Users/carltonl/Documents/GitHub/greek-express.github.io/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["poppins"],"display":"swap"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
