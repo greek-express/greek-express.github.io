@@ -6,7 +6,7 @@ const SectionMenu = () => {
     return (
         <Fragment>
             <section className="section-menu clearfix" id="menu">
-                <Heading>Menu</Heading>
+                {/* <Heading>Menu</Heading>
                 <a
                     href="./pdf/menu.pdf"
                     target="blank"
@@ -38,7 +38,7 @@ const SectionMenu = () => {
                 </div>
             </section>
             <section className="section-delivery clearfix" id="delivery">
-                <div className="floral-divider u-margin-top-medium"></div>
+                <div className="floral-divider u-margin-top-medium"></div> */}
                 <div className="text-content u-margin-top-medium u-margin-bottom-small">
                     Have our food delivered to you using one of our partners!
                 </div>
